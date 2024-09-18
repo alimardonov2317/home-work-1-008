@@ -1,0 +1,1 @@
+Ushbu loyihada cardlar, header va Uzum Marketning ozgina qismi html va css yordamida yozilgan.

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+/* Header start */
+.header__nav {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__form {
+  display: flex;
+  width: 700px;
+}
+.catalog {
+  display: flex;
+  padding: 5px 26px;
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: #ceccff;
+  align-items: center;
+  gap: 10px;
+  color: #7f4dff;
+  border-radius: 5px;
+}
+.catalog__search {
+  width: 100%;
+  text-indent: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ebebec;
+  border-right: none;
+  outline: none;
+  font-size: 16px;
+}
+.catalog__btn {
+  border-radius: 0px 4px 4px 0;
+  padding: 5px 25px;
+  border: 1px solid #ebebec;
+  border-left: none;
+  cursor: pointer;
+}
+
+.header__collections {
+  display: flex;
+  list-style: none;
+}
+.header__list {
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.header__list a {
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 5px;
+  color: black;
+}
+.header__list:hover {
+  background-color: #dee0e5;
+}
+.main__img {
+  width: 1288px;
+  border-radius: 10px;
+}
+/* Header end */
+
+/* Main start */
+
+.main-title__icon{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.main__title{
+  font-size: 35px;
+}
+.main__icon{
+  width: 20px;
+  padding-top: 6px;
+}
+.main__card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card{
+  padding: 5px;
+  width: 240px;
+  margin: 50px 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card:hover{
+  box-shadow: 0 10px 25px -16px rgb(2 26 212 / 25%);
+}
+.card__img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__text{
+  font-size: 14px;
+  margin: 10px 0 3px 0;
+}
+.card__grade{
+  font-size: 13px;
+  color: #7E818C;
+}
+.price__month{
+  font-size: 12px;
+  padding: 2px 4px;
+  background-color: yellow;
+  border-radius: 4px;
+  width: max-content;
+  margin-bottom: 20px;
+}
+.price__discount{
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #7E818C;
+}
+.price{
+  margin: 20px 0 15px;
+}
+/* Main end */
